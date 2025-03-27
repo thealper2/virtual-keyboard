@@ -1,0 +1,63 @@
+/* Light Theme */
+.light-theme {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.light-theme .key-display,
+.light-theme .stats {
+    background-color: #e0e0e0;
+}
+
+.light-theme .key {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.light-theme .key.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.light-theme .theme-toggle button {
+    background-color: #333;
+    color: white;
+}
+
+.light-theme .stat-item {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-theme .key-display,
+.dark-theme .stats {
+    background-color: #1e1e1e;
+}
+
+.dark-theme .key {
+    background-color: #333;
+    border: 1px solid #444;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .key.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dark-theme .theme-toggle button {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.dark-theme .stat-item {
+    background-color: #333;
+    border: 1px solid #444;
+}
